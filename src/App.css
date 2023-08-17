@@ -1,38 +1,82 @@
-.App {
+body {
   text-align: center;
+  margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todo-registration{
+  background-color: aqua;
+  width: 500px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.todo-registration input {
+  width: 300px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.todo-registration button {
+  width: 300px;
+}
+
+.task-list p {
+  font-size: 32px;
+}
+
+
+.todo-task-list {
+  background-color: peachpuff;
+  width: 500px;
+  text-align: justify;
+  min-height: 160px;
+}
+
+.task-list{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.todo-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 20px;
+  width: 500px;
+  padding: 10px 0;
+  height: 80px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.todo-list p {
+  margin: 0 120px;
+  font-size: 14px;
+  line-height: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todo-button {
+  flex-grow: 1;
+  line-height: 80px;
+  text-align: end;
+}
+
+.todo-edit{
+  margin: 0 15px;
+  border-radius: 50%;
+  border: 0.5px solid black;
+  background-color: skyblue;
+  padding: 10px;
+}
+
+.todo-edit:hover {
+  cursor: pointer;
+  background-color: crimson;
+  font-weight: bold;
+}
+
+.todo-delete {
+  border-radius: 50%;
+  border: 0.5px solid black;
+  background-color: pink;
+  padding: 10px;
+}
+
+.todo-delete:hover {
+  cursor: pointer;
+  background-color: dimgray;
+  font-weight: bold;
 }
